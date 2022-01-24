@@ -132,16 +132,15 @@ Add a New Project
 };
 
 
-// promptUser()
-//     .then(promptProject)
-//     .then(portfolioData => {
-//         const pageHTML = generatePage(portfolioData);
-//         console.log
+promptUser()
+    .then(promptProject)
+    .then(portfolioData => {
+        const pageHTML = generatePage(portfolioData);
 
-//         // fs.writeFile('./index.html', pageHTML, err => {
-//             // if (err) throw new Error(err);
-//         // })
-//     });
+        fs.writeFile('./index.html', pageHTML, err => {
+            if (err) throw new Error(err);
+        })
+    });
 
 const mockData = {
     name: 'Lernantino',
@@ -189,7 +188,7 @@ const mockData = {
     ]
   };
 
-  const pageHTML = generatePage(mockData);
+//   const pageHTML = generatePage(mockData);
     
     
 // done w/ 9.4.2; onto 9.4.3
