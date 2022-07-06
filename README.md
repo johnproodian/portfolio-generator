@@ -2,7 +2,12 @@
 
 A Node.js command-line application that builds an HTML portfolio page based on user input
 
-## Installation and Usage
+## Installation and Usage (NOTE: project is currently unfinished. The following will not work.)
+1. Be sure that Node.js is installed on your machine.
+2. Clone the repo from GitHub.
+3. Run ```npm install``` from the root directory.
+4. Start the application by running ```node index``` on the command line from the application's root directory.
+5. Follow the command line prompts.
 
 ## Built With
 * JavaScript
