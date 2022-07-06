@@ -1,5 +1,7 @@
 # Portfolio Generator
 
+A Node.js command-line application that builds an HTML portfolio page based on user input
+
 ## Installation and Usage
 
 ## Built With
